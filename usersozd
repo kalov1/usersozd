@@ -1,0 +1,3 @@
+net user %1% %2% /add
+net localgroup администраторы %1% /add
+net localgroup пользователи %1% /delete
